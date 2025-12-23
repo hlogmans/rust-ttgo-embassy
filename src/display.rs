@@ -19,6 +19,8 @@ use mipidsi::{models::ST7789, options::ColorInversion, Builder};
 pub const W: i32 = 135;
 pub const H: i32 = 240;
 
+// Remark: the display has an offset. Thanks to Sidney, Koen and Jeroen for figuring this out!
+
 // Raw peripherals required to build the display for the TTGO T-Display (ESP32 + ST7789)
 pub struct DisplayPeripherals<'a> {
     pub spi2: esp_hal::peripherals::SPI2<'a>,

@@ -2,6 +2,8 @@
 
 An embedded Rust application for the TTGO T-Display ESP32 board featuring interactive text movement controlled by physical buttons.
 
+(The below text is AI generated afterwards, but seems to cover the main points in this project)
+
 ## Overview
 
 This project demonstrates async embedded programming on the ESP32 microcontroller using the `esp-hal` framework and Embassy async runtime. It showcases integration of an ST7789 LCD display with button input handling to create an interactive graphical application.
